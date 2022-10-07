@@ -1,0 +1,223 @@
+/* Start Header  */
+
+.headerintros{
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    /* display: none;  */
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos table tr td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.infos table tr td i{
+    font-size: 18px;
+    color:#fcd333
+}
+
+.infos table:nth-child(3) tr td i{
+    margin-top: 10px;
+}
+
+@media (max-width:700px) {
+    .visiblelgs{
+        display: none;
+    }
+}
+
+/* End Header  */
+
+/* Start Scroll  */
+/*
+.progressIntro{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.progressContainer{
+    width: 100%;
+    height: 5px;
+}
+
+.progressbar{
+    width: 0%;
+    height: 5px;
+    background-color:#fcd333;
+    transition: all 0.5s;
+} */
+
+/* End Scroll  */
+
+/* Start Stick Note  */
+
+.sticknotes a{
+    width: 120px;
+    color: #fff;
+    background-color: steelblue;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0 ;
+
+    padding: 15px;
+
+    position: fixed;
+    left: -105px;
+
+    z-index: 100;
+
+    transition: left 0.5s;
+  }
+
+  .sticknotes .homes{
+    top: 200px;
+    background-color: green;
+  }
+
+  .sticknotes .carts{
+    top: 260px;
+    background-color: skyblue;
+  }
+
+  .sticknotes .logouts{
+    top: 320px;
+    background-color: grey;
+  }
+
+  .sticknotes a:hover{
+    left: 0;
+  }
+
+  .sticknotes .logouts form button:focus{
+    outline: none;
+
+  }
+
+  /* End Stick Note  */
+
+  /* Start Navbar  */
+ .header-2.active{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1000;
+}
+  /* End Navbar  */
+
+
+/* Start Login Box  */
+.open-btn{
+    width: 50px;
+    height: 50px;
+
+    position: fixed;
+    bottom: 10px;
+    left: 25px;
+    z-index: 10;
+  }
+
+  .form-popup{
+    display: none;
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+
+    z-index:1000;
+    transition: all 2s;
+
+  }
+
+  .form-container{
+    width: 400px;
+    padding: 20px;
+    background-color: #fcd333;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+  }
+
+  /* Start Login Box  */
+
+.deal{
+    background-image: url('../images/bg_1.jpg');
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    padding: 100px 0;
+}
+
+.deal .content{
+    flex:1 1 42rem;
+}
+
+.deal .image{
+    flex:1 1 42rem;
+}
+
+.deal .image img{
+    width: 80%;
+}
+
+.deal .content h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fcd333;
+    font-size: 4rem;
+    padding-bottom: .5rem;
+    padding-left: 100px;
+}
+
+.deal .content h1{
+    color:white;
+    font-size: 4rem;
+    padding-left: 100px;
+}
+
+.deal .content h1 strong{
+    font-size: 4.3rem;
+    color:#fcd333
+}
+
+.deal .content p{
+    padding:1rem 0;
+    color:white;
+    font-size: 1.4rem;
+    padding-left: 100px;
+}
+
+.deal .content .btn{
+    padding: 15px 20px;
+    margin-left: 100px;
+    background-color: #fcd333;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Start Customers Feedback  */
+.customers{
+    background-image: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,1)
+    ),url("../images/image_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* End Customers  */
